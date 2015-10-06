@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{What is Long Term Support}{3}{0}{1}
+\beamer@sectionintoc {2}{QGIS release cycle}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Past}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Problems}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{LTR, LR, DEV}{9}{0}{2}
+\beamer@sectionintoc {3}{How to support QGIS (LTR)?}{12}{0}{3}
+\beamer@sectionintoc {4}{Case study}{17}{0}{4}

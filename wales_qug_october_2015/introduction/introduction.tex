@@ -1,0 +1,341 @@
+\section{Summary of user requirements}
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+		\frametitle{Plan}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\begin{frame}{Requirements}
+	\begin{block}{Requirements}
+		\begin{itemize}
+			\item Functional
+			\item Non-functional
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\subsection{Functional}
+\begin{frame}{Functionals}
+\begin{block}{Functional features}
+	    \begin{itemize}
+	    \item View geo-data
+	    \item Add/edit geo-data
+	    \item Analysis
+	    \item Reporting
+	    \end{itemize}
+\end{block}
+ 
+\end{frame}
+
+
+\begin{frame}{Functionals}
+\begin{block}{View geo-data, e.g.:}
+    \begin{itemize}
+	    \item Forest data
+        \item Infrastructure
+        \item Catastrophe management assets
+        \item EO data
+        \item Climatic data
+    \end{itemize}
+\end{block}
+ 
+\end{frame}
+
+
+\begin{frame}{Functionals}
+	\begin{block}{Edit/add data, e.g.}
+		\begin{itemize}
+			\item Changes in land cover
+			\item Update changes to infrastructure post-catastrophe
+			\item Upload GNSS data from sites 
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Functionals}
+	\begin{block}{Analysis/geo-processing, e.g.}
+		\begin{itemize}
+			\item Valuation (e.g. current timber volume)
+			\item Loss assessment
+			\item Forecasting future losses
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Functionals}
+	\begin{block}{Reporting, e.g.}
+		\begin{itemize}
+			\item Baseline (forest area, species and age)
+			\item Loss maps
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\subsection{Non-functional}
+\begin{frame}{Non-functionals}
+	\begin{block}{Non-functional features}
+		\begin{itemize}
+			\item Centralised geo-database
+			\item Secure
+			\item Interoperable
+			\item Standardised methodologies
+			\item Scalable
+
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Non-functionals}
+	\begin{block}{Centralised geo-database}
+		\begin{itemize}
+			\item Forest data
+			\item EO data
+			\item Background mapping data
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Non-functionals}
+	\begin{block}{Secure}
+		\begin{itemize}
+			\item Granular access
+			\item Data encryption
+			\item Secure TCP/IP
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Non-functionals}
+	\begin{block}{Interoperable}
+		\begin{itemize}
+			\item Sharing data between different parties
+			\item Accessing (geo-)data through different software/platform
+			\item Processing (geo-)data using different software/platform
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Non-functionals}
+	\begin{block}{Standardised methodologies}
+		\begin{itemize}
+			\item Valuation
+			\item Calculating losses
+			\item Forecasting future losses
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\begin{frame}{Non-functionals}
+	\begin{block}{Scalable}
+		\begin{itemize}
+			\item Suitable for small and large FOs
+			\item Various EO data resolution/sizes
+		\end{itemize}
+	\end{block}
+	
+\end{frame}
+
+\section{Proposed system architecture}
+\subsection{Overview of the system}
+
+\begin{frame}{Overview of the system}
+	\begin{block}{Main components}
+		\begin{itemize}
+			\item Bespoke GIS software
+			\item Geo-database
+			\item Web mapping service
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Overview of the system}
+	\centering{\includegraphics[width=1.0\textwidth]{system.png}}	
+\end{frame}
+
+\subsection{Bespoke GIS application}
+\begin{frame}{Bespoke GIS software}
+	\begin{block}{QGIS custom application}
+		\begin{itemize}
+			\item Easy to use
+			\item No software license cost
+			\item Working on multiple platforms (e.g. desktop and mobile)
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.25\textwidth]{qgis-icon_2.png}}
+\end{frame}
+
+\subsection{Geo-database}
+\begin{frame}{Geo-database}
+	\begin{block}{Postgresql}
+		\begin{itemize}
+			\item Secure
+			\item No software license cost
+			\item Support for spatial data/processing
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.25\textwidth]{hdr_logo.png} \includegraphics[width=0.3\textwidth]{pg.jpg}}
+\end{frame}
+
+\subsection{WMS}
+\begin{frame}{WMS}
+	\begin{block}{Geoserver}
+		\begin{itemize}
+			\item Comply with the OGC standard
+			\item No software license cost
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.45\textwidth]{gs.jpg}}
+\end{frame}
+
+\section{How does it work?}
+
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+		\frametitle{Plan}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\subsection{QGIS}
+\begin{frame}{QGIS bespoke apllication}
+	\begin{block}{Exiting and new functionalities}
+		\begin{itemize}
+			\item Generic GIS functions (e.g.):
+			\begin{itemize}
+				\item Navigation
+				\item Add GI data
+				\item Connection to OGC services
+				\item Cartography
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{gisAppGeneric.png}}
+\end{frame}
+
+\begin{frame}{QGIS bespoke apllication}
+	\begin{block}{Exiting and new functionalities}
+		\begin{itemize}
+			\item Map canvas:
+			\begin{itemize}
+				\item View data
+				\item Compare before and after EO data - side by side
+				\item Compare before and after EO data - swipe
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{gisAppCanvas.png}}
+\end{frame}
+
+\begin{frame}{QGIS bespoke apllication}
+	\begin{block}{Exiting and new functionalities}
+		\begin{itemize}
+			\item Digitising/Adding data:
+			\begin{itemize}
+				\item Digitising new data
+				\item Import existing data
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{gisAppDigitising.png}}
+\end{frame}
+
+\begin{frame}{QGIS bespoke apllication}
+	\begin{block}{Exiting and new functionalities}
+		\begin{itemize}
+			\item EO data:
+			\begin{itemize}
+				\item Registering new user/organisation
+				\item Ordering EO data:
+					\begin{itemize}
+						\item Define area
+						\item Define time period
+					\end{itemize}
+				\item Monitoring status of order
+				\item Order logs
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{gisAppEO.png}}
+\end{frame}
+
+\begin{frame}{QGIS bespoke apllication}
+	\begin{block}{Exiting and new functionalities}
+		\begin{itemize}
+			\item Analysis (mainly using TPB and RasterCalc):
+			\begin{itemize}
+				\item Baseline valuation
+				\item Loss calculator
+				\item Forecast future losses
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{gisAppAnalysis.png}}
+\end{frame}
+
+\begin{frame}{QGIS bespoke apllication}
+	\begin{block}{Exiting and new functionalities}
+		\begin{itemize}
+			\item Reporting:
+			\begin{itemize}
+				\item Auto-generate PDF report
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{gisAppReport.png}}
+\end{frame}
+
+\begin{frame}{QGIS bespoke apllication}
+	\centering{\includegraphics[width=1.0\textwidth]{gisAppConnections.png}}
+\end{frame}
+
+\subsection{PostGIS}
+\begin{frame}{PostGIS}
+	\begin{block}{DB components}
+		\begin{itemize}
+			\item Schemas
+			\item Authorisation/Authentication
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.75\textwidth]{postgis.png}}
+\end{frame}
+
+\begin{frame}{PostGIS}
+	\begin{block}{Schemas and Tables}
+		\begin{itemize}
+			\item Pre-defined attribute tables
+			\item Cartographic styles
+			\item Users and roles
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{GeoServer}
+\begin{frame}{Geoserver}
+	\begin{block}{Geoserver components}
+		\begin{itemize}
+			\item Mapstore
+			\item Authorisation/Authentication
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.75\textwidth]{wms.png}}
+\end{frame}
+
+\section{Q\&A}
+
+\begin{frame}{Q\&A}
+	\begin{block}{Q\&A}
+	\end{block}
+	%\centering{\includegraphics[width=0.75\textwidth]{wms.png}}
+\end{frame}
