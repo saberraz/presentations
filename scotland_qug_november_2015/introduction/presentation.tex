@@ -1,0 +1,203 @@
+\section{Understanding release cycle}
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+		\frametitle{Plan}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\begin{frame}{Why so many versions}
+	\centering{\includegraphics[width=0.8\textwidth]{windows_download.png}}
+\end{frame}
+
+\begin{frame}{Keep everyone happy}
+	\centering{\includegraphics[width=0.8\textwidth]{You-can-not-please-everyone.jpg}}
+\end{frame}
+
+
+
+\begin{frame}{LTR}
+	\begin{block}{What is LTR?}
+		\begin{itemize}
+			\item Supported period
+			\item Software bugs 
+			\item Features
+			\item Release cycle
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{LTR}
+	\begin{block}{Why LTR?}
+		\begin{itemize}
+			\item Reliability
+			\item Stability
+			\item Less frequent release cycle 
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{LTR}
+	\begin{block}{Why NOT LTR?}
+		\begin{itemize}
+			\item Users
+				\begin{itemize}
+					\item New features
+				\end{itemize}		
+			\item Developers 
+				\begin{itemize}
+					\item Extra cost
+					\item Extra resources
+					\item Adding features is more fun!
+				\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{QGIS release cycle}
+\subsection{Past}
+\begin{frame}{QGIS release - past}
+	\begin{block}{Release early, release often}
+		\begin{itemize}
+			\item 3 moths of development
+			\item 1 month of bug fix
+		\end{itemize}
+	\end{block}
+	\begin{center}
+
+	\begin{tabular}{|c|c|}
+		\hline QGIS release & Date \\ 
+		\hline 2.0\footnote{To coincide with FOSS4G in Nottingham} & September 2013 \\ 
+		\hline 2.2 & February 2014 \\ 
+		\hline 2.4 & June 2014 \\ 
+		\hline 2.6\footnote{Delayed by a week} & November 2014 \\ 
+		\hline 2.8 & February 2015 \\ 
+		\hline 2.10 & June 2015 \\ 
+		\hline 
+	\end{tabular} 
+	\end{center} 
+\end{frame}
+
+
+\subsection{Problems}
+\begin{frame}{QGIS release - problems}
+	\begin{block}{Less reliable software:}
+		\begin{itemize}
+			\item Bug reporting participation
+			\item Planned releasing 
+			\item Regressions and blockers
+		\end{itemize}
+	\end{block}
+	\begin{center}
+		
+		\begin{tabular}{|c|c|}
+			\hline QGIS release & No. of bugs closed \\ 
+			\hline 2.0\footnote{Change of API} & 1075 \\ 
+			\hline 2.2 & 71 \\ 
+			\hline 2.4 & 191 \\ 
+			\hline 2.6 & 100 \\ 
+			\hline 2.8\footnote{Sum of 2.8.x releases} & 184 \\ 
+			\hline 
+		\end{tabular}
+	\end{center} 
+\end{frame}
+
+\subsection{LTR, LR, DEV}
+\begin{frame}{QGIS release - LTR, LR, DEV}
+	\begin{block}{Give choice}
+		\begin{itemize}
+			\item LTR (LTS): If you want reliability
+			\item LR: If you want new features and don't your house on fire!
+			\item DEV: Current development branch
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{QGIS release - LTR, LR, DEV}
+	\centering{\includegraphics[width=0.9\textwidth]{ae1c0956-523e-11e4-95d9-cea1a3429faf.png}}
+\end{frame}
+
+\begin{frame}{QGIS release - LTR, LR, DEV}
+	\begin{block}{2.8 in numbers}
+		\begin{itemize}
+			\item 4 releases: 2.8.0, 2.8.1, 2.8.2 and 2.8.3
+			\item 184 bugs closed
+			\item 630 commits on github since 2.7 feature freeze:
+				\begin{itemize}
+					\item 2.8.0: 325
+					\item 2.8.1: +33
+					\item 2.8.2: +122
+					\item 2.8.3: +150
+				\end{itemize}
+			\item 717568 downloads\footnote{Windows stand-alone installer only}
+				\begin{itemize}
+					\item 2.8.0: 324
+					\item 2.8.1: 361907
+					\item 2.8.2: 305389
+					\item 2.8.3: 49948
+				\end{itemize}			
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+
+
+\section{How to support QGIS (LTR)?}
+
+\begin{frame}{How to support QGIS (LTR)?}
+	\begin{block}{You can:}
+		\begin{itemize}
+			\item Sponsor bug fixing
+				\begin{itemize}
+					\item Donation to QGIS
+					\item Contracting QGIS developer(s)
+				\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{How to support QGIS (LTR)?}
+	\centering{\includegraphics[width=0.7\textwidth]{PublicQGISfinancialreport2014.png}}
+\end{frame}
+
+\begin{frame}{How to support QGIS (LTR)?}
+	\centering{\includegraphics[width=0.8\textwidth]{svg-fix.png}}
+\end{frame}
+
+\begin{frame}{How to support QGIS (LTR)?}
+	\begin{block}{You can:}
+		\begin{itemize}
+			\item Participate
+			\begin{itemize}
+				\item Testing
+				\begin{itemize}
+					\item Run multiple QGIS versions
+					\item Test previous bugs
+					\item Try new features
+					\item Help with other reported bugs
+				\end{itemize}
+				\item Filing bugs (https://hub.qgis.org/projects/quantum-gis/issues):
+				\begin{itemize}
+					\item Step-by-step guide to reproduce your bug
+					\item Follow-ups
+					\item Provide test data
+				\end{itemize}
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Case study}
+\begin{frame}{QGIS LTR: Case study}
+	\begin{block}{Custom installer}
+		\begin{itemize}
+			\item Pre-configured with data/services
+			\item Includes templates (print composers, styles, etc.)
+			\item Directly compiled from LTR source on github
+			\item Plugin configuration
+			\item GUI configuration
+		\end{itemize}
+	\end{block}
+		\centering{\includegraphics[width=0.7\textwidth]{b77ada24-3f76-11e5-808f-6686696e19f0.jpg}}
+\end{frame}

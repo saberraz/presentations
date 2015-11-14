@@ -1,0 +1,41 @@
+\mode<presentation>
+
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+  \fill[color=LutraGrey] (0,2) rectangle (\the\paperwidth,\the\paperheight);
+  \fill[color=LutraGrey] (0,0) rectangle(2.95,1.9);
+  \fill[color=LutraGrey] (3.05,0) rectangle(\the\paperwidth,1.9);
+  \ifnum\thepage>1\relax%
+   \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+   \fi
+  \end{tikzpicture}
+}
+
+% Title page
+\defbeamertemplate*{title page}{lutra}[1][]
+{ \vskip3.7cm%
+  %\centering{\includegraphics[width=0.25\textwidth]{qgis-icon_2.png}}\\
+	
+	%\includegraphics[width=0.15\textwidth]{ncc.png}\\
+	
+   \vskip1.5cm%
+    \begin{beamercolorbox}[wd=12cm,leftskip=3cm,sep=8pt,#1]{title page header}
+      \usebeamerfont{title}\inserttitle\par%
+    \end{beamercolorbox}%
+    \vskip0.5cm%
+    \begin{tabular}{p{2cm} p{4cm}}
+    			 \begin{center}
+    			 \hspace*{-1.5cm} \vspace*{-0.5cm}\includegraphics[width=0.25\textwidth]{Lutra_logo_grey.png}
+    			 \end{center} & \vskip0.5cm \begin{beamercolorbox}[wd=12cm,leftskip=0.3cm,#1]{author}
+    		\usebeamerfont{author}\insertauthor%
+    	\end{beamercolorbox} \vskip0.2cm%
+    	\begin{beamercolorbox}[wd=12cm,leftskip=0.3cm,#1]{date}
+    		\usebeamerfont{author}\insertdate%
+    	\end{beamercolorbox}
+    	\vfill
+    \end{tabular}
+    
+}
+
+\mode<all>
