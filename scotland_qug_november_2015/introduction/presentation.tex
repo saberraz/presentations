@@ -6,23 +6,63 @@
 		\tableofcontents[currentsection]
 	\end{frame}
 }
-
-\begin{frame}{Why so many versions}
+\subsection{Current releases}
+\begin{frame}{Why so many versions?}
 	\centering{\includegraphics[width=0.8\textwidth]{windows_download.png}}
 \end{frame}
 
-\begin{frame}{Keep everyone happy}
+\begin{frame}{Keeping everyone happy}
 	\centering{\includegraphics[width=0.8\textwidth]{You-can-not-please-everyone.jpg}}
 \end{frame}
 
+\begin{frame}{Versions}
+	\begin{block}{QGIS versions}
+		\begin{itemize}
+			\item Development or nightly (DEV)
+			\item Release (LR) 
+			\item Long Term Release (LTR)
+		\end{itemize}
+	\end{block}
+\end{frame}
 
+\begin{frame}{QGIS release - LTR, LR, DEV}
+	\centering{\includegraphics[width=0.9\textwidth]{ae1c0956-523e-11e4-95d9-cea1a3429faf.png}}
+\end{frame}
+
+\begin{frame}{Development version}
+	\begin{block}{Suitable for:}
+		\begin{itemize}
+			\item Core developers
+			\item Plugin developers
+			\item Curious about bleeding edge features!
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Release version}
+	\begin{block}{Suitable for:}
+		\begin{itemize}
+			\item New users
+			\item If you want new features without burning down your house!
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{LTR}
+\begin{frame}{LTR version}
+	\begin{block}{Suitable for:}
+		\begin{itemize}
+			\item Corporate users
+		\end{itemize}
+	\end{block}
+\end{frame}
 
 \begin{frame}{LTR}
 	\begin{block}{What is LTR?}
 		\begin{itemize}
 			\item Supported period
 			\item Software bugs 
-			\item Features
+			\item No new features
 			\item Release cycle
 		\end{itemize}
 	\end{block}
@@ -34,6 +74,29 @@
 			\item Reliability
 			\item Stability
 			\item Less frequent release cycle 
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{LTR}
+	\begin{block}{2.8 in numbers}
+		\begin{itemize}
+			\item 4 releases: 2.8.0, 2.8.1, 2.8.2 and 2.8.3
+			\item 184 bugs closed
+			\item 630 commits on github since 2.7 feature freeze:
+			\begin{itemize}
+				\item 2.8.0: 325
+				\item 2.8.1: +33
+				\item 2.8.2: +122
+				\item 2.8.3: +150
+			\end{itemize}
+			\item 758734 downloads\footnote{Windows stand-alone installer only}
+			\begin{itemize}
+				\item 2.8.0: 324
+				\item 2.8.1: 363474
+				\item 2.8.2: 306721
+				\item 2.8.3: 88215
+			\end{itemize}			
 		\end{itemize}
 	\end{block}
 \end{frame}
@@ -55,9 +118,8 @@
 	\end{block}
 \end{frame}
 
-\section{QGIS release cycle}
-\subsection{Past}
-\begin{frame}{QGIS release - past}
+\subsection{2.x releases}
+\begin{frame}{QGIS 2.x releases}
 	\begin{block}{Release early, release often}
 		\begin{itemize}
 			\item 3 moths of development
@@ -72,8 +134,10 @@
 		\hline 2.2 & February 2014 \\ 
 		\hline 2.4 & June 2014 \\ 
 		\hline 2.6\footnote{Delayed by a week} & November 2014 \\ 
-		\hline 2.8 & February 2015 \\ 
+		\hline {\color{red}\textbf{2.8}} & {\color{red}\textbf{February 2015}} \\ 
 		\hline 2.10 & June 2015 \\ 
+		\hline 2.12 & October 2015 \\ 
+		\hline {\color{red} \textit{2.14}} & {\color{red}\textit{February 2016}} \\ 
 		\hline 
 	\end{tabular} 
 	\end{center} 
@@ -103,43 +167,8 @@
 	\end{center} 
 \end{frame}
 
-\subsection{LTR, LR, DEV}
-\begin{frame}{QGIS release - LTR, LR, DEV}
-	\begin{block}{Give choice}
-		\begin{itemize}
-			\item LTR (LTS): If you want reliability
-			\item LR: If you want new features and don't your house on fire!
-			\item DEV: Current development branch
-		\end{itemize}
-	\end{block}
-\end{frame}
 
-\begin{frame}{QGIS release - LTR, LR, DEV}
-	\centering{\includegraphics[width=0.9\textwidth]{ae1c0956-523e-11e4-95d9-cea1a3429faf.png}}
-\end{frame}
 
-\begin{frame}{QGIS release - LTR, LR, DEV}
-	\begin{block}{2.8 in numbers}
-		\begin{itemize}
-			\item 4 releases: 2.8.0, 2.8.1, 2.8.2 and 2.8.3
-			\item 184 bugs closed
-			\item 630 commits on github since 2.7 feature freeze:
-				\begin{itemize}
-					\item 2.8.0: 325
-					\item 2.8.1: +33
-					\item 2.8.2: +122
-					\item 2.8.3: +150
-				\end{itemize}
-			\item 717568 downloads\footnote{Windows stand-alone installer only}
-				\begin{itemize}
-					\item 2.8.0: 324
-					\item 2.8.1: 361907
-					\item 2.8.2: 305389
-					\item 2.8.3: 49948
-				\end{itemize}			
-		\end{itemize}
-	\end{block}
-\end{frame}
 
 
 
@@ -200,4 +229,43 @@
 		\end{itemize}
 	\end{block}
 		\centering{\includegraphics[width=0.7\textwidth]{b77ada24-3f76-11e5-808f-6686696e19f0.jpg}}
+\end{frame}
+
+
+\section{QGIS Survey}
+
+\begin{frame}{QGIS survey results}
+	\begin{block}{User proficiency}
+	\end{block}
+	\centering{\includegraphics[width=0.4\textwidth]{qgis_survey_oct2015_1.png}}
+\end{frame}
+
+\begin{frame}{QGIS survey results}
+	\begin{block}{Frequancy of use}
+	\end{block}
+	\centering{\includegraphics[width=0.6\textwidth]{qgis_survey_oct2015_2.png}}
+\end{frame}
+
+\begin{frame}{QGIS survey results}
+	\begin{block}{Which version}
+	\end{block}
+	\centering{\includegraphics[width=0.6\textwidth]{qgis_survey_oct2015_3.png}}
+\end{frame}
+
+\begin{frame}{QGIS survey results}
+	\begin{block}{Support period for the LTR}
+	\end{block}
+	\centering{\includegraphics[width=0.85\textwidth]{qgis_survey_oct2015_4.png}}
+\end{frame}
+
+\begin{frame}{QGIS survey results}
+	\begin{block}{Supporting QGIS project}
+	\end{block}
+	\centering{\includegraphics[width=0.95\textwidth]{qgis_survey_oct2015_5.png}}
+\end{frame}
+
+\begin{frame}{QGIS survey results}
+	\begin{block}{Allocation of QGIS budget}
+	\end{block}
+	\centering{\includegraphics[width=0.45\textwidth]{qgis_survey_oct2015_6.png}}
 \end{frame}
