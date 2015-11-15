@@ -57,13 +57,15 @@
 \headcommand {\beamer@subsectionentry {0}{3}{1}{22}{2.14 release}}\headcommand {\beamer@subsectionpages {21}{21}}
 \headcommand {\slideentry {3}{1}{1}{22/22}{2.14 release}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {3}{1}{2}{23/23}{2.14 release}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{23}{3.0 release}}\headcommand {\beamer@subsectionpages {22}{22}}
+\headcommand {\slideentry {3}{2}{1}{23/23}{3.0 release}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {3}{1}{3}{24/24}{2.14 release}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{24}{Full-time developer}}\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\slideentry {3}{3}{1}{24/24}{Full-time developer}{0}}
 \headcommand {\beamer@framepages {24}{24}}
 \headcommand {\sectionentry {4}{QGIS Survey}{25}{QGIS Survey}{0}}
 \headcommand {\beamer@sectionpages {21}{24}}
-\headcommand {\beamer@subsectionpages {22}{24}}
+\headcommand {\beamer@subsectionpages {24}{24}}
 \headcommand {\slideentry {4}{0}{1}{25/25}{}{0}}
 \headcommand {\beamer@framepages {25}{25}}
 \headcommand {\slideentry {4}{0}{2}{26/26}{}{0}}
@@ -78,15 +80,26 @@
 \headcommand {\beamer@framepages {30}{30}}
 \headcommand {\slideentry {4}{0}{7}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\sectionentry {5}{Case study}{32}{Case study}{0}}
+\headcommand {\sectionentry {5}{New features in QGIS 2.12}{32}{New features in QGIS 2.12}{0}}
 \headcommand {\beamer@sectionpages {25}{31}}
 \headcommand {\beamer@subsectionpages {25}{31}}
 \headcommand {\slideentry {5}{0}{1}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
 \headcommand {\slideentry {5}{0}{2}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\beamer@partpages {1}{33}}
-\headcommand {\beamer@subsectionpages {32}{33}}
-\headcommand {\beamer@sectionpages {32}{33}}
-\headcommand {\beamer@documentpages {33}}
-\headcommand {\def \inserttotalframenumber {33}}
+\headcommand {\slideentry {5}{0}{3}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {5}{0}{4}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\sectionentry {6}{Case study}{36}{Case study}{0}}
+\headcommand {\beamer@sectionpages {32}{35}}
+\headcommand {\beamer@subsectionpages {32}{35}}
+\headcommand {\slideentry {6}{0}{1}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {6}{0}{2}{37/37}{}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\beamer@partpages {1}{37}}
+\headcommand {\beamer@subsectionpages {36}{37}}
+\headcommand {\beamer@sectionpages {36}{37}}
+\headcommand {\beamer@documentpages {37}}
+\headcommand {\def \inserttotalframenumber {37}}

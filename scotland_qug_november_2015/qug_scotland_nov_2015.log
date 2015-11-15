@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  15 NOV 2015 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.27)  15 NOV 2015 19:30
 entering extended mode
 **qug_scotland_nov_2015.tex
 (qug_scotland_nov_2015.tex
@@ -1281,7 +1281,7 @@ line 7.
 "
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) <Lutra_logo_grey.png, id=33, 131.5314pt x 50.3481pt>
+) <Lutra_logo_grey.png, id=37, 131.5314pt x 50.3481pt>
 File: Lutra_logo_grey.png Graphic file (type png)
 
 <use Lutra_logo_grey.png>
@@ -1306,7 +1306,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 qug_scotland_nov_2015.toc) [2
 
 ]) (introduction/presentation.tex
-<windows_download.png, id=70, 220.4235pt x 170.7981pt>
+<windows_download.png, id=80, 220.4235pt x 170.7981pt>
 File: windows_download.png Graphic file (type png)
 
 <use windows_download.png>
@@ -1315,7 +1315,7 @@ Package pdftex.def Info: windows_download.png used on input line 12.
  [3
 
  <./windows_download.png>]
-<You-can-not-please-everyone.jpg, id=77, 602.25pt x 444.15938pt>
+<You-can-not-please-everyone.jpg, id=87, 602.25pt x 444.15938pt>
 File: You-can-not-please-everyone.jpg Graphic file (type jpg)
 
 <use You-can-not-please-everyone.jpg>
@@ -1327,7 +1327,7 @@ Package pdftex.def Info: You-can-not-please-everyone.jpg used on input line 16.
  <./You-can-not-please-everyone.jpg>]
 [5
 
-] <ae1c0956-523e-11e4-95d9-cea1a3429faf.png, id=97, 1585.925pt x 1284.8pt>
+] <ae1c0956-523e-11e4-95d9-cea1a3429faf.png, id=107, 1585.925pt x 1284.8pt>
 File: ae1c0956-523e-11e4-95d9-cea1a3429faf.png Graphic file (type png)
 
 <use ae1c0956-523e-11e4-95d9-cea1a3429faf.png>
@@ -1364,7 +1364,7 @@ Overfull \vbox (2.29207pt too high) detected at line 30
 ] [17
 
 ]
-<PublicQGISfinancialreport2014.png, id=178, 540.5796pt x 529.0164pt>
+<PublicQGISfinancialreport2014.png, id=191, 540.5796pt x 529.0164pt>
 File: PublicQGISfinancialreport2014.png Graphic file (type png)
 
 <use PublicQGISfinancialreport2014.png>
@@ -1373,7 +1373,7 @@ Package pdftex.def Info: PublicQGISfinancialreport2014.png used on input line 1
 (pdftex.def)             Requested size: 215.10196pt x 210.49692pt.
  [18
 
- <./PublicQGISfinancialreport2014.png>] <svg-fix.png, id=185, 730.98094pt x 343
+ <./PublicQGISfinancialreport2014.png>] <svg-fix.png, id=198, 730.98094pt x 343
 .2825pt>
 File: svg-fix.png Graphic file (type png)
  <use svg-fix.png>
@@ -1395,75 +1395,90 @@ Package pdftex.def Info: svg-fix.png used on input line 191.
 (qug_scotland_nov_2015.toc) [25
 
 ]
-<qgis_survey_oct2015_1.png, id=242, 172.4844pt x 197.2971pt>
+<qgis_survey_oct2015_1.png, id=261, 172.4844pt x 197.2971pt>
 File: qgis_survey_oct2015_1.png Graphic file (type png)
 
 <use qgis_survey_oct2015_1.png>
-Package pdftex.def Info: qgis_survey_oct2015_1.png used on input line 253.
+Package pdftex.def Info: qgis_survey_oct2015_1.png used on input line 255.
 (pdftex.def)             Requested size: 122.91406pt x 140.59972pt.
  [26
 
  <./qgis_survey_oct2015_1.png>]
-<qgis_survey_oct2015_2.png, id=249, 154.8987pt x 145.2627pt>
+<qgis_survey_oct2015_2.png, id=268, 154.8987pt x 145.2627pt>
 File: qgis_survey_oct2015_2.png Graphic file (type png)
 
 <use qgis_survey_oct2015_2.png>
-Package pdftex.def Info: qgis_survey_oct2015_2.png used on input line 259.
+Package pdftex.def Info: qgis_survey_oct2015_2.png used on input line 261.
 (pdftex.def)             Requested size: 184.3758pt x 172.9135pt.
  [27
 
  <./qgis_survey_oct2015_2.png>]
-<qgis_survey_oct2015_3.png, id=255, 205.0059pt x 194.6472pt>
+<qgis_survey_oct2015_3.png, id=275, 205.0059pt x 194.6472pt>
 File: qgis_survey_oct2015_3.png Graphic file (type png)
 
 <use qgis_survey_oct2015_3.png>
-Package pdftex.def Info: qgis_survey_oct2015_3.png used on input line 265.
+Package pdftex.def Info: qgis_survey_oct2015_3.png used on input line 267.
 (pdftex.def)             Requested size: 184.3758pt x 175.06204pt.
  [28
 
  <./qgis_survey_oct2015_3.png>]
-<qgis_survey_oct2015_4.png, id=262, 245.9589pt x 175.857pt>
+<qgis_survey_oct2015_4.png, id=282, 245.9589pt x 175.857pt>
 File: qgis_survey_oct2015_4.png Graphic file (type png)
 
 <use qgis_survey_oct2015_4.png>
-Package pdftex.def Info: qgis_survey_oct2015_4.png used on input line 271.
+Package pdftex.def Info: qgis_survey_oct2015_4.png used on input line 273.
 (pdftex.def)             Requested size: 261.19826pt x 186.76709pt.
  [29
 
  <./qgis_survey_oct2015_4.png>]
-<qgis_survey_oct2015_5.png, id=269, 316.0608pt x 201.1515pt>
+<qgis_survey_oct2015_5.png, id=289, 316.0608pt x 201.1515pt>
 File: qgis_survey_oct2015_5.png Graphic file (type png)
 
 <use qgis_survey_oct2015_5.png>
-Package pdftex.def Info: qgis_survey_oct2015_5.png used on input line 277.
+Package pdftex.def Info: qgis_survey_oct2015_5.png used on input line 279.
 (pdftex.def)             Requested size: 291.92444pt x 185.80438pt.
  [30
 
  <./qgis_survey_oct2015_5.png>]
-<qgis_survey_oct2015_6.png, id=276, 138.2766pt x 191.7564pt>
+<qgis_survey_oct2015_6.png, id=296, 138.2766pt x 191.7564pt>
 File: qgis_survey_oct2015_6.png Graphic file (type png)
 
 <use qgis_survey_oct2015_6.png>
-Package pdftex.def Info: qgis_survey_oct2015_6.png used on input line 283.
+Package pdftex.def Info: qgis_survey_oct2015_6.png used on input line 285.
 (pdftex.def)             Requested size: 138.2795pt x 191.77345pt.
 
-Overfull \vbox (2.14972pt too high) detected at line 283
+Overfull \vbox (2.14972pt too high) detected at line 285
  []
 
 [31
 
  <./qgis_survey_oct2015_6.png>] (qug_scotland_nov_2015.toc) [32
 
+] [33
+
 ]
-<b77ada24-3f76-11e5-808f-6686696e19f0.jpg, id=299, 454.92064pt x 191.70569pt>
+[34
+
+]
+Overfull \hbox (3.98642pt too wide) in paragraph at lines 318--318
+\T1/cmss/m/n/10.95 here:http://www.qgis.org/en/site/forusers/visualchangelog212
+/  
+ []
+
+[35
+
+] (qug_scotland_nov_2015.toc) [36
+
+]
+<b77ada24-3f76-11e5-808f-6686696e19f0.jpg, id=353, 454.92064pt x 191.70569pt>
 File: b77ada24-3f76-11e5-808f-6686696e19f0.jpg Graphic file (type jpg)
 
 <use b77ada24-3f76-11e5-808f-6686696e19f0.jpg>
 Package pdftex.def Info: b77ada24-3f76-11e5-808f-6686696e19f0.jpg used on input
- line 298.
+ line 332.
 (pdftex.def)             Requested size: 215.10196pt x 90.64577pt.
-Package atenddvi Info: Last page = 33.
- [33
+Package atenddvi Info: Last page = 37.
+ [37
 
  <./b77ada24-3f76-11e5-808f-6686696e19f0.jpg>])
 \tf@nav=\write6
@@ -1474,15 +1489,9 @@ Package atveryend Info: Executing hook `AfterLastShipout' on input line 65.
  (qug_scotland_nov_2015.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package rerunfilecheck Info: File `qug_scotland_nov_2015.out' has not changed.
+(rerunfilecheck)             Checksum: 751BA4E7275762BAFF9DA57787A979A6;329.
 
-
-Package rerunfilecheck Warning: File `qug_scotland_nov_2015.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `qug_scotland_nov_2015.out':
-(rerunfilecheck)             Before: DE2E0CAAB3CC8AD9604E57AFA1308240;268
-(rerunfilecheck)             After:  FE5F1A9436D423C4AB0E8D9E4DF9AD2D;268.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1490,10 +1499,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
- 28696 strings out of 493671
- 587163 string characters out of 3141420
+ 28725 strings out of 493671
+ 587473 string characters out of 3141420
  627137 words of memory out of 3000000
- 31383 multiletter control sequences out of 15000+200000
+ 31399 multiletter control sequences out of 15000+200000
  25546 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  60i,15n,71p,10386b,791s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1512,9 +1521,9 @@ pk> <C:\Users\Saber\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 r\jknappen\ec\dpi600\ecsx1440.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/symbols/msam10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/symbols/msam7.pfb>
-Output written on qug_scotland_nov_2015.pdf (33 pages, 864617 bytes).
+Output written on qug_scotland_nov_2015.pdf (37 pages, 879468 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 725 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 
