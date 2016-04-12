@@ -11,24 +11,26 @@
 \headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Installer}}\headcommand {\beamer@subsectionpages {3}{3}}
 \headcommand {\slideentry {1}{1}{1}{4/4}{Installer}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Plugins}}\headcommand {\beamer@subsectionpages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{3}{5}{Settings and configurations}}\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{4}{5}{Training}}\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{5}{5}{Support}}\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\sectionentry {2}{PostGIS}{5}{PostGIS}{0}}
-\headcommand {\beamer@sectionpages {3}{4}}
-\headcommand {\beamer@subsectionpages {5}{4}}
-\headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Installer}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{6}{Migrating data}}\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{6}{Sync tool with ArcSDE}}\headcommand {\beamer@subsectionpages {6}{5}}
-\headcommand {\sectionentry {3}{WebGIS and Geoserver}{6}{WebGIS and Geoserver}{0}}
-\headcommand {\beamer@sectionpages {5}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Plugins}}\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{6}{Settings and configurations}}\headcommand {\beamer@subsectionpages {6}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{6}{Training}}\headcommand {\beamer@subsectionpages {6}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{5}{6}{Support}}\headcommand {\beamer@subsectionpages {6}{5}}
+\headcommand {\sectionentry {2}{PostGIS}{6}{PostGIS}{0}}
+\headcommand {\beamer@sectionpages {3}{5}}
 \headcommand {\beamer@subsectionpages {6}{5}}
-\headcommand {\slideentry {3}{0}{1}{6/6}{}{0}}
+\headcommand {\slideentry {2}{0}{1}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {1}{6}}
-\headcommand {\beamer@subsectionpages {7}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{7}{Migrating data}}\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{7}{Sync tool with ArcSDE}}\headcommand {\beamer@subsectionpages {7}{6}}
+\headcommand {\sectionentry {3}{WebGIS and Geoserver}{7}{WebGIS and Geoserver}{0}}
 \headcommand {\beamer@sectionpages {6}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\def \inserttotalframenumber {6}}
+\headcommand {\beamer@subsectionpages {7}{6}}
+\headcommand {\slideentry {3}{0}{1}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@partpages {1}{7}}
+\headcommand {\beamer@subsectionpages {8}{7}}
+\headcommand {\beamer@sectionpages {7}{7}}
+\headcommand {\beamer@documentpages {7}}
+\headcommand {\def \inserttotalframenumber {7}}
