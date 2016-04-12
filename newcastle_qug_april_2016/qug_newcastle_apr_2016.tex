@@ -1,0 +1,67 @@
+% !TeX document-id = {143f66d8-ef22-4f31-8276-701c8691dfde}
+% Copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+
+
+\documentclass{beamer}
+%use only for handouts
+%\usepackage{handoutWithNotes}
+%\pgfpagesuselayout{4 on 1 with notes}[a4paper,border shrink=5mm]
+% Setup appearance:
+
+\usepackage{xcolor}								% Colorful headings
+\definecolor{LutraGreen}{RGB}{19,170,72} 
+\definecolor{LutraGrey}{RGB}{80,80,80} 
+
+\usetheme{lutra}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{block title}{bg=white,fg=LutraGreen}
+\setbeamercolor*{item}{fg=LutraGreen}
+\setbeamercolor{section in toc}{fg=LutraGreen}
+
+% Standard packages
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+%\usepackage{times}
+\usepackage{multimedia} 
+\usepackage{media9}
+\usepackage[T1]{fontenc}
+\usepackage[sfdefault]{roboto}
+%\usepackage{roboto}
+\usepackage{eurosym}
+
+\usepackage{hyperref}
+
+
+% Setup TikZ
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+% Author, Title, etc.
+
+\title{Newcastle City Council - Migration to QGIS and Open Source GIS}
+
+\author{Saber Razmjooei}
+
+\date{13 April 2016}
+
+
+\begin{document}
+\input{outline}
+\input{introduction/presentation}
+
+
+
+\end{document}
