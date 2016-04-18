@@ -1,0 +1,60 @@
+\section{Introduction}
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+		\frametitle{Plan}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\begin{frame}{Introduction}
+	\begin{block}{Lutra Consulting}
+		\begin{itemize}
+			\item Core QGIS developers
+			\item General (GIS) software/web development
+			\item Hydraulic modelling
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Crayfish}
+\subsection{What is Crayfish?}
+\begin{frame}{About Crayfish}
+	\begin{block}{ {\includegraphics[width=0.2\textwidth]{crayfishlogo.png}}	}
+		\begin{itemize}
+			\item A C++/python QGIS plugin
+			\item Reads temporal datasets
+			\item Supports structured/unstructured mesh
+		\end{itemize}
+	\end{block}
+
+\end{frame}
+
+\begin{frame}{Supported file formats}
+	\begin{block}{Hydraulic modelling packages:}
+		\begin{itemize}
+			\item SMS (Map) Output binary and ASCII (.dat Files)
+				\begin{itemize}
+					\item Hydro\_AS-2D
+					\item BASEMENT
+					\item TUFLOW
+					\item Flood Modeller Pro 2D
+				\end{itemize}
+			\item Selafin files
+					\begin{itemize}
+						\item TELEMAC 2D
+					\end{itemize}
+			\item SWW format
+					\begin{itemize}
+						\item AnuGA
+					\end{itemize}
+			\item HDF format
+					\begin{itemize}
+						\item Hec RAS 2D
+						\item TUFLOW (xmdf: based on HDF5)
+					\end{itemize}
+		\end{itemize}
+	
+	\end{block}
+	
+\end{frame}
