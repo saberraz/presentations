@@ -6,7 +6,16 @@ scotland_qug_november_2015/qug_scotland_nov_2015.synctex.gz
 *.toc
 *.log
 scotland_qug_november_2015/qug_scotland_nov_2015.synctex.gz
+<<<<<<< HEAD
 *.gz
 *.snm
 *.nav
 *.aux
+=======
+*.nav
+*.aux
+*.gz
+*.nav
+*.aux
+*.gz
+>>>>>>> origin/master
