@@ -1,0 +1,154 @@
+\section{About Us}
+\AtBeginSection[]
+{
+	\begin{frame}<beamer>
+		\frametitle{Plan}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\begin{frame}{About Us}
+	\begin{block}{Lutra Consulting}
+		\begin{itemize}
+			\item Core QGIS developers
+			\item General (GIS) software/web development
+			\item Support
+			\item Training
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{QGIS core development}
+\begin{frame}{QGIS features we developed}
+\begin{block}{Development of:}
+	\begin{itemize}
+		\item Multi-threaded rendering (2.4)
+		\item Legend re-factoring and support for virtual multi-canvas, multi-styling (2.6 - 2.10)
+		\item Rule-based labelling (2.12)
+		\item Trace digitizing and snap caching (2.14)
+		\item For the upcoming 2.16 release:
+		\begin{itemize}
+			\item Legend item widget tool
+			\item Enhancement to the "reshape" digitizing tool
+			\item Advanced "preset" settings for the Print Composer
+		\end{itemize}		
+	\end{itemize}
+\end{block}
+\end{frame}
+
+
+\subsection{Public QGIS tools and plugins}
+\begin{frame}{Various plugins}
+\centering{\includegraphics[width=0.9\textwidth]{plugins.png}}
+\end{frame}
+
+\subsection{Other activities}
+\begin{frame}{Consultancy, support \& training}
+	\begin{block}{Services}
+		\begin{itemize}
+			\item Consultancy
+			\item Web(mapping) development
+			\item Training
+			\item Support
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Migration to Open Source GIS}
+\subsection{Current state}
+\begin{frame}{Current SDI}
+	\begin{block}{SDI environments:}
+		\begin{itemize}
+			\item Proprietary software
+			\item Black boxes with Open source components
+			\item Hybrid
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Proprietary software}
+\begin{frame}{Proprietary software}
+	\begin{block}{Pros and Cons}
+		\begin{itemize}
+			\item Advantages:
+			\begin{itemize}
+				\item Unified platform
+				\item Support and documentation
+				\item Usability
+			\end{itemize}
+			\item Disadvantages
+			\begin{itemize}
+				\item Dependency
+				\item Overall cost
+				\item Flexibility
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Black box OS software}
+\begin{frame}{Black box OS software}
+	\begin{block}{Pros and Cons}
+		\begin{itemize}
+			\item Advantages:
+			\begin{itemize}
+				\item Things work
+				\item Easy to migrate away
+			\end{itemize}
+			\item Disadvantages
+			\begin{itemize}
+				\item Similar cost to Proprietary Software
+				\item Not configurable/Customisable
+			\end{itemize}
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\section{Case study - Newcastle City Council}
+\subsection{Business Case \& Rational}
+\begin{frame}{Business Case \& Rational}
+	\begin{block}{Why migrate away:}
+		\begin{itemize}
+			\item Performance issues
+			\item Expensive software
+			\item More number of users
+			\item Unwanted extras
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Evaluation and pilot study}
+\begin{frame}{Evaluation and pilot study}
+	\begin{block}{}
+		\begin{itemize}
+			\item Migrating some data to PostGIS
+			\item Migrating power users to QGIS
+			\item Identifying blockers
+			\item Assessing data \& service compatibility and interoperability
+		\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Full implementation}
+\subsubsection{QGIS}
+\begin{frame}{Desktopn GIS}
+	\begin{block}{Customised QGIS - based on the LTR}
+		\begin{itemize}
+			\item Resolving issues with the Active Directory
+			\item Development of a QGIS plugin for gazetteer
+			\item Integration with their OGC services
+			\item Fixing bug (backport to QGIS project)
+		\end{itemize}
+	\end{block}
+	\centering{\includegraphics[width=0.7\textwidth]{b77ada24-3f76-11e5-808f-6686696e19f0.jpg}}
+\end{frame}
+
+\begin{frame}{Training}
+	\begin{block}{Bespoke training for over 75 users}
+		\begin{itemize}
+			\item Conversion from previous platform to QGIS
+			\item Several new users
+		\end{itemize}
+	\end{block}
+\end{frame}
+
