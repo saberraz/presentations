@@ -42,18 +42,6 @@
 \centering{\includegraphics[width=0.9\textwidth]{plugins.png}}
 \end{frame}
 
-\subsection{Other activities}
-\begin{frame}{Consultancy, support \& training}
-	\begin{block}{Services}
-		\begin{itemize}
-			\item Consultancy
-			\item Web(mapping) development
-			\item Training
-			\item Support
-		\end{itemize}
-	\end{block}
-\end{frame}
-
 \section{Migration to Open Source GIS}
 \subsection{Current state}
 \begin{frame}{Current SDI}
@@ -151,4 +139,96 @@
 		\end{itemize}
 	\end{block}
 \end{frame}
+
+\subsection{PostGIS}
+
+\subsubsection{Migrating data}
+
+\begin{frame}{PostGIS}
+	\begin{block}{Migrating data}
+		\begin{itemize}
+			\item OS Translator II
+			\item ogr2ogr scripts
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\begin{frame}{PostGIS}
+	\begin{block}{Migrating data}
+		\begin{itemize}
+			\item Test server
+			\item Main server
+			\begin{itemize}
+				\item with back-up / restore script
+			\end{itemize}
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\subsubsection{Sync tool with ArcSDE}
+
+\begin{frame}{PostGIS}
+	\begin{block}{Sync tool with ArcSDE}
+		\begin{itemize}
+			\item Waiting for ESRI support (1 year!)
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\section{WebGIS and Geoserver}
+\begin{frame}{Geoserver}
+	\centering{\includegraphics[width=1.0\textwidth]{webgis.png}}
+\end{frame}
+
+\begin{frame}{WebGIS}
+	\begin{block}{A simple webmap to:}
+		\begin{itemize}
+			\item Publish select council datasets to the public and council staff
+			\item Provide a means for staff to self-serve address data 
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+
+\begin{frame}{WebGIS}
+	\begin{block}{A simple webmap to:}
+		\begin{itemize}
+			\item Publish select council datasets to the public and council staff
+			\item Provide a means for staff to self-serve address data 
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\section{Conclusions}
+\begin{frame}{If you are considering Open Source GIS}
+	\begin{block}{Considerations:}
+		\begin{itemize}
+			\item Planning
+			\item Pilot study
+			\item Data and service interoperability
+			\item Cost...nothing is free
+			\item Support
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+\begin{frame}{WebGIS}
+	\begin{block}{Implementation:}
+		\begin{itemize}
+			\item All running on MS Windows
+			\item PostGIS
+			\item Geoserver + Geoserver Printing module
+			\item Bespoke back-end services for
+			\begin{itemize}
+				\item Find my nearest
+				\item Gazetteer
+				\item Download
+			\end{itemize}
+			\item OpenLayers3
+		\end{itemize}
+	\end{block}	
+\end{frame}
+
+
+
 
